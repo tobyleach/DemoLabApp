@@ -24,6 +24,8 @@ namespace DemoLabApp.Controllers
         }
 
         public IActionResult Privacy()
+        public class HomeController : Controller { #region some code before… public IActionResult Privacy() { return View(); } public IActionResult About() { return View(); } #region more code after… }
+After
         {
             return View();
         }
